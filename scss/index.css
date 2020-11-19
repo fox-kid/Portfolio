@@ -834,6 +834,11 @@ button {
   flex-direction: column;
 }
 
+.contact-form label {
+  display: flex;
+  width: 100%;
+}
+
 .contact-form input,
 .contact-form textarea {
   padding: 0.875rem 1.875rem;
@@ -842,6 +847,7 @@ button {
   background-color: #161d26;
   box-shadow: 0 0 15px rgba(96, 233, 255, 0.27);
   border-radius: 10px;
+  width: 100%;
 }
 
 .contact-form input#submit {
