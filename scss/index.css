@@ -299,7 +299,7 @@ button {
   padding: 3.625rem 2.125rem;
 }
 
-.about-us-text h4 {
+.about-us-text h3 {
   font-size: 1.5rem;
   margin-bottom: 1.0625rem;
   line-height: 24px;
@@ -315,7 +315,7 @@ button {
   line-height: 24px;
 }
 
-.about-us-text h5 {
+.about-us-text h4 {
   font-size: 1.125rem;
   margin-bottom: 0.875rem;
   list-style: 21.6px;
@@ -392,7 +392,7 @@ button {
   margin-bottom: 1.5625rem;
 }
 
-.grid-item h4 {
+.grid-item h3 {
   font-size: 1.5rem;
   color: #ffffff;
 }
@@ -535,20 +535,20 @@ button {
   left: -30px;
 }
 
-.resume-info-details h5 {
+.resume-info-details h4 {
   font-size: 1.25rem;
   color: #f57f17;
   line-height: 24px;
 }
 
-.resume-info-details h6,
+.resume-info-details h5,
 .resume-info-details p {
   font-size: 1rem;
   color: #95a5c6;
   line-height: 24px;
 }
 
-.resume-info-details h6 {
+.resume-info-details h5 {
   font-weight: 600;
 }
 
@@ -718,7 +718,7 @@ button {
   text-align: center;
 }
 
-.card-heading h4 {
+.card-heading h3 {
   font-size: 2.25rem;
   line-height: 25px;
   color: #ffffff;
@@ -822,7 +822,7 @@ button {
   padding: 2.5rem 2.8125rem;
 }
 
-.contact-us-details h4 {
+.contact-us-details h3 {
   font-size: 2.25rem;
   line-height: 43.2px;
   color: #0abead;
@@ -1145,7 +1145,7 @@ footer p {
 }
 
 @media only screen and (max-width: 650px) {
-  .about-us-text h4,
+  .about-us-text h3,
   .about-us-text p,
   .about-us-text ul li {
     line-height: 16px;
@@ -1229,7 +1229,7 @@ footer p {
     padding: 1.5rem 1.8125rem;
   }
 
-  .contact-us-details h4 {
+  .contact-us-details h3 {
     margin-bottom: 1rem;
   }
 
