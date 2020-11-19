@@ -535,20 +535,20 @@ button {
   left: -30px;
 }
 
-.resume-info-details h4 {
+.resume-info-details h3 {
   font-size: 1.25rem;
   color: #f57f17;
   line-height: 24px;
 }
 
-.resume-info-details h5,
+.resume-info-details h4,
 .resume-info-details p {
   font-size: 1rem;
   color: #95a5c6;
   line-height: 24px;
 }
 
-.resume-info-details h5 {
+.resume-info-details h4 {
   font-weight: 600;
 }
 
