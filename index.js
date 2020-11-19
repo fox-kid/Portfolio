@@ -59,59 +59,23 @@ function portfolioActive() {
 
 portfolioActive();
 
-// toggleActiveClass(portfolioTabs);
+function toggleBurgerMenu() {
+  document.querySelector('.burger-menu-btn').classList.toggle('is-active');
+  document.querySelector('.navigation').classList.toggle('is-active');
+}
 
-// const educItems = Array.from(document.querySelectorAll('.education-item'));
-// const workHistItems = Array.from(
-//   document.querySelectorAll('.work-history-item')
-// );
-// const progSkillsItems = Array.from(
-//   document.querySelectorAll('.prog-skills-item')
-// );
-// const designSkillsItems = Array.from(
-//   document.querySelectorAll('.designer-skills-item')
-// );
-// const seoSkillsItems = Array.from(
-//   document.querySelectorAll('.seo-skills-item')
-// );
+const navTabs = Array.from(document.querySelectorAll('.navigation-a'));
 
-// showResume(resumeTabs,);
-// function showResume(listitem, detailsitem) {
-//   array.forEach((element) => {
-//     element.addEventListener(
-//       'click',
-//       function () {
-//         document.querySelector('.resume-item').hidden = true;
-//         document.querySelectorAll('.prog-skills-item').hidden = false;
-//       },
-//       false
-//     );
-//   });
-// // }
-// showResume();
-// function showResume() {
-//   document.querySelectorAll('.prog-skills-item').hidden = false;
-// }
+function navigationActive() {
+  navTabs.forEach((element) => {
+    element.addEventListener('click', function (e) {
+      e.preventDefault();
+      navTabs
+        .find((x) => x.classList.contains('is-active'))
+        .classList.remove('is-active');
+      this.classList.add('is-active');
+    });
+  });
+}
 
-// showResume()
-// function showResume(array) {
-//     document.querySelectorAll(".resume-li").hidden = true;
-//     array.forEach((element) => {
-//       element.addEventListener("click", function () { array.forEacg]hidden = false;
-//       });
-//   }
-// }
-
-//   addEventListener(
-//     'click',
-//     function () {
-//       document.querySelectorAll('.education-item').hidden = true;
-//       document.querySelectorAll('.work-history-item').hidden = false;
-//     },
-//     false
-//   );
-// }
-// showResume();
-// if (document.querySelector.is - ActiveXObject.resume - li.designer - skills) {
-//   document.querySelectorAll.designer - skills - item.hidden === false;
-// }
+navigationActive();
