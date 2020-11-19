@@ -833,7 +833,7 @@ button {
   display: flex;
   flex-direction: column;
 }
-/* 
+
 .sr-only {
   position: absolute !important;
   width: 1px;
@@ -843,7 +843,7 @@ button {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
-} */
+}
 
 .contact-form input,
 .contact-form textarea {
