@@ -1182,7 +1182,7 @@ footer p {
     height: 200px;
     width: 200px;
     border: 20px solid #1f2935;
-    top: 310px;
+    top: calc(50% - 60px);
   }
 
   .about-me-btns {
