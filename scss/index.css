@@ -1170,6 +1170,7 @@ footer p {
 @media only screen and (max-width: 600px) {
   #welcome .content-size {
     position: relative;
+    justify-content: center;
   }
 
   .welcome-text {
@@ -1182,10 +1183,6 @@ footer p {
     width: 200px;
     border: 20px solid #1f2935;
     top: 310px;
-  }
-
-  #welcome .content-size {
-    justify-content: center;
   }
 
   .about-me-btns {
