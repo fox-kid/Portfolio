@@ -1168,7 +1168,7 @@ footer p {
 }
 
 @media only screen and (max-width: 600px) {
-  .welcome-info {
+  #welcome .content-size {
     position: relative;
   }
 
@@ -1181,7 +1181,7 @@ footer p {
     height: 200px;
     width: 200px;
     border: 20px solid #1f2935;
-    top: 255px;
+    top: 355px;
   }
 
   #welcome .content-size {
