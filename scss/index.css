@@ -988,6 +988,10 @@ footer p {
     height: 70px;
   }
 
+  #welcome {
+    min-height: calc(100vh - 70px);
+  }
+
   .about-us-img {
     height: 421.2px;
     width: 300px;
