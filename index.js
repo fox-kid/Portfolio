@@ -74,6 +74,8 @@ function navigationActive() {
         .find((x) => x.classList.contains('is-active'))
         .classList.remove('is-active');
       this.classList.add('is-active');
+      document.querySelector('.burger-menu-btn').classList.remove('is-active');
+      document.querySelector('.navigation').classList.remove('is-active');
     });
   });
 }
