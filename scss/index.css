@@ -1229,6 +1229,14 @@ footer p {
   .resume-info-menu::before {
     height: 270px;
   }
+
+  footer .content-size {
+    flex-direction: row-reverse;
+  }
+
+  .contact-logos {
+    margin-right: 20px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
