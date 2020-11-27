@@ -1231,11 +1231,15 @@ footer p {
   }
 
   footer .content-size {
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .contact-us-details {
+    margin-bottom: 30px;
   }
 
   .contact-logos {
-    margin-right: 20px;
+    margin-bottom: 5px;
   }
 }
 
